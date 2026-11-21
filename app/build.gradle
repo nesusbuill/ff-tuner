@@ -8,17 +8,19 @@ android {
 
     defaultConfig {
         applicationId "com.khalid.fftuner"
-        minSdk 23
+        minSdk 24          // ✅ Đã tăng từ 23 → 24 để tương thích Shizuku
         targetSdk 34
         versionCode 3
         versionName "3.0"
     }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
