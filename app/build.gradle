@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.khalid.fftuner"
-        minSdk 24          // ✅ Đã tăng từ 23 → 24 để tương thích Shizuku
+        minSdk 24
         targetSdk 34
         versionCode 3
         versionName "3.0"
@@ -30,6 +30,6 @@ android {
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.11.0'
-    implementation 'dev.rikka.shizuku:api:13.1.5'
-    implementation 'dev.rikka.shizuku:provider:13.1.5'
+    implementation 'dev.rikka.shizuku:api:12.2.0'
+    implementation 'dev.rikka.shizuku:provider:12.2.0'
 }
